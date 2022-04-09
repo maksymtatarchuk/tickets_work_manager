@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Home JIRA</title>
+</head>
+<body>
+    <!-- LEFT MENU -->
+    <div class="left-menu">
+        <p><b>MENU</b></p>
+        <button class="add-ticket-btn" id="add-new-ticket-btn">Add ticket</button>
+        <ul class="tickets-menu-list" id="left-menu-list">
+            <li title="Helping text">TEST-2154</li>
+        </ul>
+    </div>
+    <!-- POPUP WINDOW -->
+    <div class="pop-up add-new-tecket b-hidden" id="new-ticket-pop-up">
+        <form id="add-ticket-form" action="" method="post">
+            <div class="pop-up-frame">
+                <div class="pop-up-field">
+                    <label for="url">Jira url</label>
+                    <input class="add-new-ticket pop-up-input-field" name="url" type="url">
+                </div>
+                <div class="pop-up-field">
+                    <label for="title">Jira Title</label>
+                    <input class="add-new-ticket pop-up-input-field" name="title" type="text">
+                </div>
+                <div class="pop-up-field">
+                    <label for="title">Type</label>
+                    <select class="add-new-ticket pop-up-input-field" name="type" type="text">
+                        <option value="FIX">Fix</option>
+                        <option value="DEV">Dev</option>
+                        <option value="CHANGE">Change</option>
+                    </select>
+                </div>
+                <div class="pop-up-field">
+                    <label for="title">Put ticket html file here:</label>
+                    <div class="add-file-style">
+                        <input class="add-new-ticket pop-up-input-field add-file" name="html" type="file" id="add-ticket-file"/>
+                    </div>
+                </div>
+                <div class="pop-up-field">
+                    <input class="add-new-ticket submit-btn" type="submit" id="new-submit" value="Add">
+                </div>
+                <input class="add-new-ticket pop-up-cancel-btn" type="button" id="add-new-ticket-cancel-btn" value="X">
+            </div>
+        </form>
+    </div>
+    <!-- CONTENT -->
+    <div class="container">
+    </div>
+    <!-- SCRIPTS -->
+    <script src="./requires.js"></script>
+    <script src="./render.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+select.pop-up-input-field {
+    height: 31px;
+    width: 350px;
+}
+
+label {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.pop-up {
+    top: 0;
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop-up-frame {
+    background-color: white;
+    box-shadow: 2px 3px 7px rgb(150, 150, 150);
+    border-radius: 7px;
+    padding: 25px;
+}
+
+.add-new-ticket {
+    outline: none;
+    border: none;
+    height: 25px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(92, 92, 92, 0.5);
+    margin: 0 4px;
+    padding: 2px 8px;
+}
+
+.pop-up-field {
+    border: none;
+    display: grid;
+    margin: 15px;
+}
+
+.pop-up-cancel-btn {
+    background-color: rgba(165, 42, 42, 0.5);
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.pop-up-cancel-btn:hover {
+    background-color: rgba(165, 42, 42, 0.75);
+}
+
+.submit-btn {
+    background-color: rgba(0, 128, 0, 0.75);
+    height: 35px;
+    width: 350px;
+}
+
+.submit-btn:hover {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+.add-file {
+    margin: 0;
+    height: 75px;
+    width: 96%;
+    border-radius: 7px;
+    opacity: 0;
+}
+
+.add-file-style {
+    background-image: url('../img/add-file-background.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 1px 1px 3px rgba(92, 92, 92, 1);
+    border-radius: 7px;
+    padding: 0;
+    opacity: 0.5;
+}
+
+.add-file-style:hover {
+    background-image: url('../img/add-file-background-hover.png');
+    box-shadow: 0px 0px 5px rgb(92, 92, 92);
+}

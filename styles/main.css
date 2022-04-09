@@ -1,0 +1,26 @@
+@import url('./add-new-ticket.css');
+@import url('./left-menu.css');
+
+body {
+    display: inline;
+    margin: 0;
+    background-color: #999999;
+}
+
+button {
+    cursor: pointer;
+}
+
+.b-hidden {
+    display: none;
+}
+
+/* .container {
+    position: fixed;
+    margin: auto;
+    border: 1px solid rgb(138, 137, 137);
+    border-radius: 7px;
+    box-shadow: 1px 2px 5px rgb(138, 137, 137);
+    margin: 10px;
+    padding: 10px;
+} */

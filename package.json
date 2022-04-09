@@ -1,0 +1,22 @@
+{
+  "name": "tickets_work_manager",
+  "version": "1.0.0",
+  "description": "Tickets work manager. For Personal usage.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksymtatarchuk/tickets_work_manager.git"
+  },
+  "author": "Maksym Tatarchuk <maksym.tatarchuk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksymtatarchuk/tickets_work_manager/issues"
+  },
+  "homepage": "https://github.com/maksymtatarchuk/tickets_work_manager#readme",
+  "dependencies": {
+    "electron": "^17.2.0"
+  }
+}
